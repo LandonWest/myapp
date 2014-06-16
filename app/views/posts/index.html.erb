@@ -9,5 +9,5 @@
 <p><%= post.body %></p>
 <%= link_to 'Show Post', post_path(post.id) %>
 <%= link_to 'Edit Post', edit_post_path(post.id) %>
-
+<%= link_to 'Delete Post', post, method: :delete %>
 <% end %>
